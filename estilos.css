@@ -1,0 +1,56 @@
+body {
+    background: rgb(240, 240, 240);
+}
+
+section {
+    position: relative;
+    margin: 10% auto;
+    width: 400px;
+    height: 400px;
+    border: 3px solid gray;
+    background: rgb(180, 180, 180);
+    border-radius: 10px;
+  } 
+  
+img {
+    position: relative;
+    padding: 0% auto;
+    margin: 5% 10% 5% 40%;/*top right button left*/
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid black;
+  } 
+
+label { 
+  position: relative;
+  margin: 0% 10% 0% 13%;/*top right button left*/
+  color: rgba(255, 255, 255, 0.39);
+  width: 100px;
+  font-size: 25px;
+  }  
+
+
+
+input { 
+    position: relative;
+    margin: 0% 10% 0% 13%;/*top right button left*/
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    font-size: 30px;
+    color: lightgrey;
+  } 
+
+  
+
+  button { 
+    position: relative;
+    margin: 3% 10% 0% 25%;/*top right button left*/
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    color: lightgrey;
+    background: rgb(54, 164, 197);
+  } 
