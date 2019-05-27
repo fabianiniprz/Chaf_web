@@ -12,7 +12,7 @@ section {
     border-radius: 10px;
   } 
   
-img {
+#icon {
     position: relative;
     padding: 0% auto;
     margin: 5% 10% 5% 40%;/*top right button left*/
@@ -54,3 +54,18 @@ input {
     color: lightgrey;
     background: rgb(54, 164, 197);
   } 
+
+  #menu {
+    background: green;
+    color: white;
+  }
+
+  #barra {
+    position: relative;
+    padding: 0% auto;
+    /* margin: 5% 10% 5% 40%; *//*top right button left*/
+    width: 1260px;
+    height: 348px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
