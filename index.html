@@ -17,28 +17,29 @@
 <body>
 
 
-    <section>
+    <main>
 
         <img id = "icon" src="img/chaf.png" alt="icon app">
+        
         <form>
 
-            <label>Username</label>
+            <label for="username">Username</label>
 
-            <input id="username" type="text" placeholder="username" onClick="funcion2()" />
+            <input id="username" type="text" placeholder="username" autocomplete="on" onClick="funcion2()" autofocus required/>
 
 
             <label>Password</label>
 
-            <input id="password" placeholder="*******" type="password" onClick="funcion3()" />
-
-            <button id="login" >Login</button>
+            <input id="password" placeholder="*******" type="password" onClick="funcion3()" required/>
+            
+            <input id="login" type="submit" value="login"/>
 
             
 
         </form>
 
 
-    </section>
+    </main>
 
 </body>
 

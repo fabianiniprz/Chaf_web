@@ -2,7 +2,7 @@ body {
     background: rgb(240, 240, 240);
 }
 
-section {
+main {
     position: relative;
     margin: 10% auto;
     width: 400px;
@@ -44,7 +44,7 @@ input {
 
   
 
-  button { 
+  #login { 
     position: relative;
     margin: 3% 10% 0% 25%;/*top right button left*/
     border-radius: 5px;

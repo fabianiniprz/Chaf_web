@@ -3,9 +3,9 @@ document.write("<h1>Hola fabian</h1>")
 };
 
 function funcion2(){
-	document.getElementById("username").innerHTML("")
+	document.getElementById("username").placeholder=""
 };
 
 function funcion3(){
-	document.getElementById("password").innerHTML("")
+	document.getElementById("password").placeholder=""
 };
